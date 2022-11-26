@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8495A9C7291B5EC2007D7D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9C6291B5EC2007D7D43 /* AppDelegate.swift */; };
+		8495A9C9291B5EC2007D7D43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9C8291B5EC2007D7D43 /* SceneDelegate.swift */; };
+		8495A9CB291B5EC2007D7D43 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9CA291B5EC2007D7D43 /* RedViewController.swift */; };
+		8495A9CE291B5EC2007D7D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495A9CC291B5EC2007D7D43 /* Main.storyboard */; };
+		8495A9D0291B5EC2007D7D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495A9CF291B5EC2007D7D43 /* Assets.xcassets */; };
+		8495A9D3291B5EC2007D7D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495A9D1291B5EC2007D7D43 /* LaunchScreen.storyboard */; };
+		8495A9DE291B5EC2007D7D43 /* RainbowTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9DD291B5EC2007D7D43 /* RainbowTaskTests.swift */; };
+		8495A9E8291B5EC2007D7D43 /* RainbowTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9E7291B5EC2007D7D43 /* RainbowTaskUITests.swift */; };
+		8495A9EA291B5EC2007D7D43 /* RainbowTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9E9291B5EC2007D7D43 /* RainbowTaskUITestsLaunchTests.swift */; };
+		8495A9F9291B6B15007D7D43 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9F8291B6B15007D7D43 /* OrangeViewController.swift */; };
+		8495A9FB291B6E05007D7D43 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9FA291B6E05007D7D43 /* YellowViewController.swift */; };
+		8495A9FD291B6E3B007D7D43 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9FC291B6E3B007D7D43 /* GreenViewController.swift */; };
+		8495A9FF291B6E64007D7D43 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495A9FE291B6E64007D7D43 /* BlueViewController.swift */; };
+		8495AA01291B6E9C007D7D43 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495AA00291B6E9C007D7D43 /* IndigoViewController.swift */; };
+		8495AA03291B6EB6007D7D43 /* VioletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495AA02291B6EB6007D7D43 /* VioletViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8495A9DA291B5EC2007D7D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8495A9BB291B5EC2007D7D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8495A9C2291B5EC2007D7D43;
+			remoteInfo = RainbowTask;
+		};
+		8495A9E4291B5EC2007D7D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8495A9BB291B5EC2007D7D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8495A9C2291B5EC2007D7D43;
+			remoteInfo = RainbowTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8495A9C3291B5EC2007D7D43 /* RainbowTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495A9C6291B5EC2007D7D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8495A9C8291B5EC2007D7D43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8495A9CA291B5EC2007D7D43 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		8495A9CD291B5EC2007D7D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8495A9CF291B5EC2007D7D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8495A9D2291B5EC2007D7D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8495A9D4291B5EC2007D7D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8495A9D9291B5EC2007D7D43 /* RainbowTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495A9DD291B5EC2007D7D43 /* RainbowTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTaskTests.swift; sourceTree = "<group>"; };
+		8495A9E3291B5EC2007D7D43 /* RainbowTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495A9E7291B5EC2007D7D43 /* RainbowTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTaskUITests.swift; sourceTree = "<group>"; };
+		8495A9E9291B5EC2007D7D43 /* RainbowTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8495A9F8291B6B15007D7D43 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		8495A9FA291B6E05007D7D43 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		8495A9FC291B6E3B007D7D43 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		8495A9FE291B6E64007D7D43 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		8495AA00291B6E9C007D7D43 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
+		8495AA02291B6EB6007D7D43 /* VioletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VioletViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8495A9C0291B5EC2007D7D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495A9D6291B5EC2007D7D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495A9E0291B5EC2007D7D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8495A9BA291B5EC2007D7D43 = {
+			isa = PBXGroup;
+			children = (
+				8495A9C5291B5EC2007D7D43 /* RainbowTask */,
+				8495A9DC291B5EC2007D7D43 /* RainbowTaskTests */,
+				8495A9E6291B5EC2007D7D43 /* RainbowTaskUITests */,
+				8495A9C4291B5EC2007D7D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8495A9C4291B5EC2007D7D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8495A9C3291B5EC2007D7D43 /* RainbowTask.app */,
+				8495A9D9291B5EC2007D7D43 /* RainbowTaskTests.xctest */,
+				8495A9E3291B5EC2007D7D43 /* RainbowTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8495A9C5291B5EC2007D7D43 /* RainbowTask */ = {
+			isa = PBXGroup;
+			children = (
+				8495A9C6291B5EC2007D7D43 /* AppDelegate.swift */,
+				8495A9C8291B5EC2007D7D43 /* SceneDelegate.swift */,
+				8495A9CA291B5EC2007D7D43 /* RedViewController.swift */,
+				8495A9CC291B5EC2007D7D43 /* Main.storyboard */,
+				8495A9CF291B5EC2007D7D43 /* Assets.xcassets */,
+				8495A9D1291B5EC2007D7D43 /* LaunchScreen.storyboard */,
+				8495A9D4291B5EC2007D7D43 /* Info.plist */,
+				8495A9F8291B6B15007D7D43 /* OrangeViewController.swift */,
+				8495A9FA291B6E05007D7D43 /* YellowViewController.swift */,
+				8495A9FC291B6E3B007D7D43 /* GreenViewController.swift */,
+				8495A9FE291B6E64007D7D43 /* BlueViewController.swift */,
+				8495AA00291B6E9C007D7D43 /* IndigoViewController.swift */,
+				8495AA02291B6EB6007D7D43 /* VioletViewController.swift */,
+			);
+			path = RainbowTask;
+			sourceTree = "<group>";
+		};
+		8495A9DC291B5EC2007D7D43 /* RainbowTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				8495A9DD291B5EC2007D7D43 /* RainbowTaskTests.swift */,
+			);
+			path = RainbowTaskTests;
+			sourceTree = "<group>";
+		};
+		8495A9E6291B5EC2007D7D43 /* RainbowTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8495A9E7291B5EC2007D7D43 /* RainbowTaskUITests.swift */,
+				8495A9E9291B5EC2007D7D43 /* RainbowTaskUITestsLaunchTests.swift */,
+			);
+			path = RainbowTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8495A9C2291B5EC2007D7D43 /* RainbowTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495A9ED291B5EC2007D7D43 /* Build configuration list for PBXNativeTarget "RainbowTask" */;
+			buildPhases = (
+				8495A9BF291B5EC2007D7D43 /* Sources */,
+				8495A9C0291B5EC2007D7D43 /* Frameworks */,
+				8495A9C1291B5EC2007D7D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowTask;
+			productName = RainbowTask;
+			productReference = 8495A9C3291B5EC2007D7D43 /* RainbowTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8495A9D8291B5EC2007D7D43 /* RainbowTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495A9F0291B5EC2007D7D43 /* Build configuration list for PBXNativeTarget "RainbowTaskTests" */;
+			buildPhases = (
+				8495A9D5291B5EC2007D7D43 /* Sources */,
+				8495A9D6291B5EC2007D7D43 /* Frameworks */,
+				8495A9D7291B5EC2007D7D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8495A9DB291B5EC2007D7D43 /* PBXTargetDependency */,
+			);
+			name = RainbowTaskTests;
+			productName = RainbowTaskTests;
+			productReference = 8495A9D9291B5EC2007D7D43 /* RainbowTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8495A9E2291B5EC2007D7D43 /* RainbowTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495A9F3291B5EC2007D7D43 /* Build configuration list for PBXNativeTarget "RainbowTaskUITests" */;
+			buildPhases = (
+				8495A9DF291B5EC2007D7D43 /* Sources */,
+				8495A9E0291B5EC2007D7D43 /* Frameworks */,
+				8495A9E1291B5EC2007D7D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8495A9E5291B5EC2007D7D43 /* PBXTargetDependency */,
+			);
+			name = RainbowTaskUITests;
+			productName = RainbowTaskUITests;
+			productReference = 8495A9E3291B5EC2007D7D43 /* RainbowTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8495A9BB291B5EC2007D7D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8495A9C2291B5EC2007D7D43 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8495A9D8291B5EC2007D7D43 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8495A9C2291B5EC2007D7D43;
+					};
+					8495A9E2291B5EC2007D7D43 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8495A9C2291B5EC2007D7D43;
+					};
+				};
+			};
+			buildConfigurationList = 8495A9BE291B5EC2007D7D43 /* Build configuration list for PBXProject "RainbowTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8495A9BA291B5EC2007D7D43;
+			productRefGroup = 8495A9C4291B5EC2007D7D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8495A9C2291B5EC2007D7D43 /* RainbowTask */,
+				8495A9D8291B5EC2007D7D43 /* RainbowTaskTests */,
+				8495A9E2291B5EC2007D7D43 /* RainbowTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8495A9C1291B5EC2007D7D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495A9D3291B5EC2007D7D43 /* LaunchScreen.storyboard in Resources */,
+				8495A9D0291B5EC2007D7D43 /* Assets.xcassets in Resources */,
+				8495A9CE291B5EC2007D7D43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495A9D7291B5EC2007D7D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495A9E1291B5EC2007D7D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8495A9BF291B5EC2007D7D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495A9FD291B6E3B007D7D43 /* GreenViewController.swift in Sources */,
+				8495AA03291B6EB6007D7D43 /* VioletViewController.swift in Sources */,
+				8495A9F9291B6B15007D7D43 /* OrangeViewController.swift in Sources */,
+				8495A9CB291B5EC2007D7D43 /* RedViewController.swift in Sources */,
+				8495A9C7291B5EC2007D7D43 /* AppDelegate.swift in Sources */,
+				8495A9C9291B5EC2007D7D43 /* SceneDelegate.swift in Sources */,
+				8495A9FB291B6E05007D7D43 /* YellowViewController.swift in Sources */,
+				8495AA01291B6E9C007D7D43 /* IndigoViewController.swift in Sources */,
+				8495A9FF291B6E64007D7D43 /* BlueViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495A9D5291B5EC2007D7D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495A9DE291B5EC2007D7D43 /* RainbowTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8495A9DF291B5EC2007D7D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495A9EA291B5EC2007D7D43 /* RainbowTaskUITestsLaunchTests.swift in Sources */,
+				8495A9E8291B5EC2007D7D43 /* RainbowTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8495A9DB291B5EC2007D7D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8495A9C2291B5EC2007D7D43 /* RainbowTask */;
+			targetProxy = 8495A9DA291B5EC2007D7D43 /* PBXContainerItemProxy */;
+		};
+		8495A9E5291B5EC2007D7D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8495A9C2291B5EC2007D7D43 /* RainbowTask */;
+			targetProxy = 8495A9E4291B5EC2007D7D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8495A9CC291B5EC2007D7D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495A9CD291B5EC2007D7D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8495A9D1291B5EC2007D7D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495A9D2291B5EC2007D7D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8495A9EB291B5EC2007D7D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8495A9EC291B5EC2007D7D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8495A9EE291B5EC2007D7D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainbowTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.RainbowTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8495A9EF291B5EC2007D7D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RainbowTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.RainbowTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8495A9F1291B5EC2007D7D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.RainbowTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowTask.app/RainbowTask";
+			};
+			name = Debug;
+		};
+		8495A9F2291B5EC2007D7D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.RainbowTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowTask.app/RainbowTask";
+			};
+			name = Release;
+		};
+		8495A9F4291B5EC2007D7D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.RainbowTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainbowTask;
+			};
+			name = Debug;
+		};
+		8495A9F5291B5EC2007D7D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.RainbowTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainbowTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8495A9BE291B5EC2007D7D43 /* Build configuration list for PBXProject "RainbowTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495A9EB291B5EC2007D7D43 /* Debug */,
+				8495A9EC291B5EC2007D7D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495A9ED291B5EC2007D7D43 /* Build configuration list for PBXNativeTarget "RainbowTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495A9EE291B5EC2007D7D43 /* Debug */,
+				8495A9EF291B5EC2007D7D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495A9F0291B5EC2007D7D43 /* Build configuration list for PBXNativeTarget "RainbowTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495A9F1291B5EC2007D7D43 /* Debug */,
+				8495A9F2291B5EC2007D7D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495A9F3291B5EC2007D7D43 /* Build configuration list for PBXNativeTarget "RainbowTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495A9F4291B5EC2007D7D43 /* Debug */,
+				8495A9F5291B5EC2007D7D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8495A9BB291B5EC2007D7D43 /* Project object */;
+}
