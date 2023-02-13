@@ -1,2 +1,2 @@
 # iOS-projects
-iOS projects using Xcode and swift language.
+iOS projects using Xcode and swift language
